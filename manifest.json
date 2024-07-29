@@ -1,0 +1,34 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Bank",
+        "description": "§e A bank Plugin/Addon for your world/server",
+        "min_engine_version": [1, 19, 60],
+        "uuid": "aa0ba572-b8c4-419b-9671-db0b2179ffcf",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "b88c75c2-ace6-438c-a399-bab3adf94d83",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "3f834592-99eb-4f5d-89fa-7fbd689242cc",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
